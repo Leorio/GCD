@@ -25,6 +25,8 @@ The code consists of the following parts
 
 ### Deeper background in the files
 
+The following files were provided
+
 - 'README.txt'
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
