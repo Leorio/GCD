@@ -43,4 +43,4 @@ The set of variables that were estimated from these signals are:
 - bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 - angle(): Angle between to vectors.
 
-Only the mean and std() variables are used for the tidy data we construct
+Only mean and std() data is used for the tidy data we construct
