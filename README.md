@@ -9,8 +9,10 @@ The assignment consisted of five parts.
 2. Extracting only the measurements on the mean and standard deviation for each measurement. 
 3. Descriptive activity names are used to name the activities in the data set
 4. Appropriately labeling the data set with descriptive variable names.
-5. From the data set in step 4, a second, independent tidy data set with the average of each variable for each activity and each subject is created.
+5. From the data set in step 4, a second, independent tidy data set with the average of each variable for each activity and each subject is created. 
+This means that for all relevant quantities 180 rows of data is obtained, as there are 30 people, all of which have performed six actions.
  
+
 The activities in the vector c(1, 2, 3, 4, 5, 6) correspond to the activities in the vector
 c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING").
 
