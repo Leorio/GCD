@@ -1,3 +1,6 @@
+# Code assumes that the data is extracted on the working folder and therefore first has to obtain all necessary data
+# This is important to know in understanding first part of the code
+
 #Create and place all necessary files in the directory GCD
 
 baseDir<-getwd()
@@ -53,6 +56,7 @@ featuresVectorChar<-as.character(featuresVector)
 featuresSelectTF<-grepl("mean()",features[,2],fixed="TRUE") |  grepl("std()",features[,2],fixed="TRUE")
 ExtractXmerged<-Xmerged[,featuresSelectTF]
 
+# Ordening data to activity and subject
 tempData<-c()
 
 for(i in 1:6){
@@ -63,6 +67,7 @@ for(j in 1:30){
     tempData<-rbind(tempData,Cmeans)
   }
 }
+# End result to obtain mydata.txt
 rowIndex=1:180
 newIndex<-c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
 activityIndex=rep(1:6,each=30)
